@@ -31,7 +31,7 @@ public class Homepage {
         driver.get("https://demo.nopcommerce.com/");
     }
     @Test
-    //test for registration verification
+    // registration verification
     public void verifyRegistration(){
         //timestamp for current time to create unique email value each time we run the program
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
