@@ -42,7 +42,7 @@ public class Homepage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        //click on male
+        //click on male option
         driver.findElement(By.xpath("//input[@id='gender-male']")).click();
         //creating web driver wait
         WebDriverWait wait=new WebDriverWait(driver,20);
